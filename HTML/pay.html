@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSUN.VN</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="../IMG/logots1.png"/>
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+      </style>
+    <link rel="stylesheet" href="/Font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- link font chữ -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- link css -->
+  <link rel="stylesheet" href="/CSS/base.css">
+  <link rel="stylesheet" href="/CSS/cart.css">
+    <style>
+      form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+      }
+    
+      form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+      }
+    
+      form.example button:hover {
+        background: #0b7dda;
+      }
+    
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    
+      /* Mobile & tablet  */
+      @media (max-width: 1023px) {
+        .custom-btn {
+          margin: unset;
+        }
+      }
+    
+      /* tablet */
+      @media (min-width: 740px) and (max-width: 1023px) {
+        .btn-blocker {
+          display: block;
+          width: 100%;
+        }
+
+        .show-hide {
+          top: 56px;
+        }
+      }
+    
+      /* mobile */
+      @media (max-width: 739px) {
+        .btn-blocker {
+          display: block;
+          width: 100%;
+        }
+    
+        .show-hide {
+          top: 56px;
+        }
+      }
+    </style>
+</head>
+<body>
+  
+  <div class="banner-hear">
+    <p>Miễn phí vận chuyển HÓA ĐƠN TRÊN 800.000 VNĐ</p>
+  </div>
+    <div id="header">
+      
+      <nav id="container" class="">
+        <div id="logo">
+            <a href="/HTML/indexx.html"><img src="../IMG/logots.png" alt="" ></a>
+        </div>
+        <div id="menu">
+            <ul id="main-menu">
+                <li><a href="/HTML/indexx.html" title="GIỚI THIỆU">Trang chủ</a></li>
+                <li><a href="/HTML/product.html" title="GIỚI THIỆU">
+                  Shop
+                  <i class="arrow-down ti-angle-down"></i>
+                </a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="/HTML/product.html" title="NIKE">
+                        nike
+                        <i class="arrow-right ti-angle-right"></i>
+                      </a>
+                      <ul class="sub-menu">
+                        <li><a href="/HTML/product.html">nike air 1</a></li>
+                        <li><a href="/HTML/product.html">nike jordan</a></li>
+                        <li><a href="/HTML/product.html">nike dunk</a></li>
+                        <li><a href="/HTML/product.html">nike air max</a></li>
+                        <li><a href="/HTML/product.html">nike air max 97</a></li>
+                        <li><a href="/HTML/product.html">nike air max 90</a></li>
+                        <li><a href="/HTML/product.html">nike Uptempo</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="/HTML/product.html" title="ADIDAS">
+                      adidas
+                      <i class="arrow-right ti-angle-right"></i>
+                    </a>
+                      <ul class="sub-menu">
+                        <li><a href="/HTML/product.html">adidas superstar</a></li>
+                        <li><a href="/HTML/product.html">adidas stan smith</a></li>
+                        <li><a href="/HTML/product.html">Adidas Alphabounce</a></li>
+                        <li><a href="/HTML/product.html">adidas eqt</a></li>
+                        <li><a href="/HTML/product.html">adidas yeezy</a></li>
+                        <li><a href="/HTML/product.html">adidas nmb</a></li>
+                        <li><a href="/HTML/product.html">adidas Ultraboost</a></li>
+                        <li><a href="/HTML/product.html">adidas Alphabounce</a></li>
+                        <li><a href="/HTML/product.html">Adidas Falcon</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="/HTML/product.html" title="VANDS">
+                      vands
+                      <i class="arrow-right ti-angle-right"></i>
+                    </a>
+                      <ul class="sub-menu">
+                        <li><a href="/HTML/product.html">Vans Old Skool</a></li>
+                        <li><a href="/HTML/product.html">Vans Slip-on</a></li>
+                        <li><a href="/HTML/product.html">Vans Style 36</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="/HTML/product.html">Converse</a></li>
+                    <li><a href="/HTML/product.html">New Balance</a></li>
+                    <li><a href="/HTML/product.html">Alexander McQueen</a></li>
+                    
+                  </ul>
+                </li>
+                
+                <li><a href="/HTML/Sale.html" title="ABOUT">sale</a></li>
+              
+                <li><a href="/HTML/About.html" title="ABOUT">about</a></li>
+                <li><a href="/HTML/Contact.html" title="CONTACT">contact</a></li>
+                <li><a href="" title="COLLAB">
+                  COLLAB'S
+                  <i class="arrow-down ti-angle-down"></i>
+                </a>
+                  <ul class="sub-menu">
+                    <li><a href="">Huy Lõ</a></li>
+                    <li><a href="">Bình Tóp Tóp</a></li>
+                    <li><a href="">Trọng Đen</a></li>
+                  </ul>
+                </li>
+                <li><a href="/HTML/new-product.html">News</a></li>
+            </ul>
+        </div>
+          <!-- this is search box -->
+          <div class="search">
+            <form action="" id="search-box">
+              <input type="text" id="search-text" required placeholder="Bạn muốn tìm kiếm gì ?">
+              <button id="search-bnt">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+          <!-- this is account and cart -->
+          <div class="right">
+            <div class="icon">
+              <a href="account.html"><i class="fas fa-user-circle"title="Tài khoản"></i></a>
+            </div>
+            <div class="icon">
+              <a href="/HTML/pay.html" ><i class="fa-solid fa-bag-shopping"title="Giỏ hàng" ></i></a>
+            </div>
+          </div>
+      </nav>
+    </div>
+    
+    <!-- hết đăng nhập -->
+
+
+
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <div class="cart">
+      <div class="container">
+          <div class="cart-wrap">
+            <div class="cart-content">
+                <form action="" class="form-cart">
+                    <div class="cart-body-left">
+                        <div class="cart-heding hidden-xs">
+                            <div class="row cart-row"> 
+                                <div class="col-11" style="text-align: center;">
+                                    <div class="row">
+                                        <div class="col-5">Sản phẩm</div>
+                                        <div class="col-2">Đơn giá</div>
+                                        <div class="col-3">Số lượng</div>
+                                        <div class="col-2">Thành tiền</div>
+                                    </div>
+                                </div>
+                                <div class="col-1"></div>
+                            </div>
+                        </div>
+                        <div class="cart-body">
+                            <div class="row cart-body-row cart-body-row-1" style="align-items: center;">
+                                <div class="col-md-11 col-10" style="text-align: center;">
+                                    <div class="row card-info" style="align-items: center;">
+                                        <div class="col-md-2 col-12 card-info-img">
+                                            <a href=""><img class="cart-img" src="/IMG/Product/1.webp" alt=""></a>
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                            <a href="" class="cart-name" ><h5>NIKECOURT ZOOM VAPOR CAGE 4 RAFA</h5></a>
+                                        </div>
+                                        <div class="col-md-2 col-12" style="font-size: 16px;">
+                                            <span id="donGia">4,409,000 ₫</span>
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                          <div class="cart-quantity">
+                                            <input type="button" value="-" class="control" onclick="tru(1)">
+                                            <input type="text" value="1" class="text-input" id="text_so_luong-1" onkeypress='validate(event)'> 
+                                            <input type="button" value="+" class="control" onclick="cong(1)">
+                                          </div>
+                                        </div>
+                                        <div class="col-md-2 col-12 hidden-xs" style="font-size: 16px;">
+                                          <span>4,409,000 ₫</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 col-2 text-right">
+                                  <a onclick="xoa(1)"><i class="fas fa-trash"></i></a>
+                              </div>
+                            </div>
+                            <div class="row cart-body-row cart-body-row-2" style="align-items: center;">
+                              <div class="col-md-11 col-10" style="text-align: center;">
+                                  <div class="row card-info" style="align-items: center;">
+                                      <div class="col-md-2 col-12 card-info-img">
+                                          <a href=""><img class="cart-img" src="/IMG/Product/2.jfif" alt=""></a>
+                                      </div>
+                                      <div class="col-md-3 col-12">
+                                          <a href="" class="cart-name" ><h5>NIKE DUNK LOW</h5></a>
+                                      </div>
+                                      <div class="col-md-2 col-12" style="font-size: 16px;">
+                                          <span>4,519,000₫</span>
+                                      </div>
+                                      <div class="col-md-3 col-12">
+                                        <div class="cart-quantity">
+                                          <input type="button" value="-" class="control" onclick="tru(2)">
+                                          <input type="text" value="1" class="text-input" id="text_so_luong-2" onkeypress='validate(event)'> 
+                                          <input type="button" value="+" class="control" onclick="cong(2)">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-2 col-12 hidden-xs" style="font-size: 16px;">
+                                        <span id="cart0">4,519,000₫</span>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-1 col-2 text-right">
+                                <a  onclick="xoa(2)"><i class="fas fa-trash"></i></a>
+                            </div>
+                          </div>
+                          <div class="row cart-body-row cart-body-row-3" style="align-items: center;">
+                            <div class="col-md-11 col-10" style="text-align: center;">
+                                <div class="row card-info" style="align-items: center;">
+                                    <div class="col-md-2 col-12 card-info-img">
+                                        <a href=""><img class="cart-img" src="/IMG/Product/3.webp" alt=""></a>
+                                    </div>
+                                    <div class="col-md-3 col-12">
+                                        <a href="" class="cart-name" ><h5>AIR JORDAN 1 ZOOM CMFT</h5></a>
+                                    </div>
+                                    <div class="col-md-2 col-12" style="font-size: 16px;">
+                                        <span id="cart1">3,109,000₫</span>
+                                    </div>
+                                    <div class="col-md-3 col-12">
+                                      <div class="cart-quantity">
+                                        <input type="button" value="-" class="control" onclick="tru(3)">
+                                        <input type="text" value="1" class="text-input" id="text_so_luong-3" onkeypress='validate(event)'> 
+                                        <input type="button" value="+" class="control" onclick="cong(3)">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-2 col-12 hidden-xs" style="font-size: 16px;">
+                                      <span id="cart2">3,109,000₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-1 col-2 text-right">
+                              <a onclick="xoa(3)" class="xoa"><i class="fas fa-trash"></i></a>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="cart-footer">
+                            <div class="row cart-footer-row">
+                                <div class="col-1"></div>
+                                <div class="col-11 continue">
+                                    <a href="/HTML/indexx.html">
+                                      <i class="fas fa-chevron-left"></i>
+                                      Tiếp tục mua sắm
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-body-right">
+                        <div class="cart-total">
+                            <label for="">Thành tiền:</label>
+                            <span class="total__price"></span>
+                        </div>
+                        <div class="cart-buttons">
+                            <a style="display: block; text-align: center;" href="./pay.html" class="chekout">THANH TOÁN</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+          </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------> 
+    <div class="footer">
+      <div class="header-top">
+          <a href=""> <i class="fa-solid fa-phone"> </i>   Hỗ trợ / Mua hàng:<span> 077944612</span> </a>
+      </div>
+          <div class="header">
+              <h3>Giới Thiệu</h3>
+              <p>TSUN là một trong những thương hiệu thể thao nổi tiếng, Từ học sinh tiểu học cho đến các vận động viên chuyên nghiệp, không ai có thể phủ nhận sức hấp dẫn của TSUN . Nếu bạn khảo sát xem có bao nhiêu người đã hoặc đang sở hữu các sản phẩm củaTSUN, thì con số này sẽ khiến bạn bất ngờ.
+                  Chất lượng của sản phẩm tạo nên uy tín của thương hiệu. Nhưng không thể phủ nhận vai trò của những chiến lược marketing vô cùng hiệu quả đã góp phần tạo nên thành công của TSUN ngày hôm nay. TSUN là nhà cung cấp giày thể thao hàng đầu tại Việt Nam, 
+                  TSUN sản xuất tất cả các loại dụng cụ thể thao. Sản phẩm đầu tiên của họ là giày chạy bộ. Giờ đây, họ cũng sản xuất giày, giày bệt, giày bóng rổ, v.v. Thích hợp cho nhiều môn thể thao, bao gồm điền kinh, bóng chày, khúc côn cầu trên băng, quần vợt, bóng đá hiệp hội (bóng đá), lacrosse, bóng rổ và cricket. 
+                  Thương hiệu TSUN có logo hình chữ độc đáo, nhanh chóng được công nhận và ưa chuộng ở các thành phố hiện đại và thời trang hip-hop do gắn liền với thành công trong thể thao.</p>
+          </div>
+      <div class="menu-footer">
+          <div class="address">
+              <h3>Hệ thống cửa hàng</h3>
+                  <table>
+                      <tbody>
+                          <tr>
+                              <td class="icon-map">
+                                  <i class="fa-solid fa-location-dot"></i>
+                              </td>
+                              <td class="text-map">
+                                  <b>Chi Nhánh Hồ Chí Minh</b>
+                                  <br>
+                                  <b>Quận Tân Phú</b>- 140 Lê Trọng Tân, Phường Tây Thạnh.
+                                  <br>
+                                  <b>Quận Tân Bình</b> - 136 Nguyễn Hồng Đào, Phường 14.
+                                  <br>
+                                  <b>Quận 1</b> - The New Playground 26 Lý Tự Trọng, Phường Phạm Ngũ Lão.
+                                  <br>
+                                  <b>Quận 1</b>- Central Market 4 Phạm Ngũ Lão, Phường Phạm Ngũ Lão.
+                                  <br>
+                                  <b>Quận Gò Vấp</b>- 41 Quang Trung, Phường 3.    
+                              </td>
+                          </tr>
+                          <tr>
+                              <td class="icon-map">
+                                  <i class="fa-solid fa-location-dot"></i>
+                              </td>
+                              <td class="text-map">
+                                <b>Chi Nhánh Hà Nội</b> <br>
+                                <b>Quận Ba Đình</b>- 260 Phường Đội Cấn, Liễu Giai <br> 
+                                <b>Quận Hai Bà Trưng </b>-27 Phường Thái Phiên, Lê Đại Hành. <br> 
+                                <b>Quận Tây Hồ </b> -52 Tô Ngọc Vân, Quãng An. <br> 
+                                <b>Quận Đống Đa </b>- 43 Phường Thái Hà, Trung Liệt. <br>
+                                <b>Quận Cầu Giấy </b>-62 Nguyễn Văn Huyên, Nghĩa Đô. 
+                              </td>
+                          </tr>
+                          <tr>
+                              <td class="icon-map">
+                                  <i class="fa-solid fa-location-dot"></i>
+                              </td>
+                              <td  class="text-map">
+                                  <b>Chi Nhánh Đà Nẵng</b>
+                                  <br>
+                                  <b>Quận Hải Châu</b>- 16 Trần Phú,Thạch Thang.
+                                  <br>
+                                  <b>Quận Sơn Trà</b> - 211 Nguyễn Tất Thành, Hòa Hiệp Nam.
+                                  <br>
+                                  <b>Quận Thanh Khê</b> - 26 Lý Tự Trọng, Phường Phạm Ngũ Lão.
+                                  <br>
+                                        
+                              </td>
+                              
+                          </tr>
+                          <tr>
+                              <td class="icon-map">
+                                  <i class="fa-solid fa-phone">
+                              </td>
+                              <td class="text-map">
+                                    0779442612 - 0359384146
+                              </td>
+                          </tr>
+                          <tr>
+                              <td class="icon-map">
+                                  <i class="fa-solid fa-envelope"></i>
+                              </td>
+                              <td class="text-map">
+                                  <a href="mailto:nhamngooinfo@gmail.com"target="_blank" rel="noreferrer" style="text-decoration: none;color: #000;">  nhamngooinfo@gmail.com</a>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+          </div>
+      </div>
+      <div class="social-network">
+          <h2>Mạng xã hội</h2>
+          <br>
+          <a href="https://www.facebook.com/nhamngoo.29/" title="FACEBOOK"><i class="fa-brands fa-facebook"></i></a> 
+          <a href="https://www.instagram.com/nhamngoo.29/" title="INSTAGRAM"><i class="fa-brands fa-instagram"></i></a>
+          <i title="YOUTUBE" class="fa-brands fa-youtube"></i>
+          <br>
+          <br>
+          <br>
+        
+          <h2>Phương thức thanh toán</h2>
+         
+          <div class="payment">
+            <a href=""><img src="../IMG/paypal-credit-card-logos-png-672268.png" alt=""></a>
+        </div>
+      </div>
+      <div></div>
+      <div class="copyright">
+          Copyright &copy; <a href="https://discord.gg/mF4JR9D8"  target="_blank" rel="noreferrer" style="text-decoration: none;"> 2022 BOX Studio.</a> Powered by nhamngoo.29
+          
+      </div>
+      <div class="footer-right">
+        <div style="width: 350px;">   
+            <a href=""><img  src="../IMG/logots1.png" alt="" style="width: 154px;"></a>
+            <br>
+            <br>
+            <br>
+            <a href="">Công ty TNHH TM&DV Nhâm Ngọ. Giấy chứng nhận Đăng ký Kinh doanh số 02092002 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 02/09/2002</a>
+            <br>
+            <br>
+            <a href=""><img src="../IMG/logo-da-thong-bao-bo-cong-thuong-mau-xanh.png" alt=""></a>
+            <br>
+            
+        </div>
+      </div>
+  </div>
+  <button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+        <i class="fas fa-arrow-up"></i>
+  </button>
+    <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-1.11.0.min.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+      ></script>
+      <script src="/JS/main.js"></script>
+      <script src="/JS/account.js"></script>
+      
+</body>
+</html>
